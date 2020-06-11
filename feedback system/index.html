@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Student feedback</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body>
+
+    
+   
+    <nav class="navbar navbar-expand-md sticky-top" id="navbar">
+        <a href="#" class="navbar-brand">
+
+            <img src="images/logo.svg" height="50px" width="50px">
+            <strong class="btext"> &nbsp;&nbsp;&nbsp; Student Fe<span class="tr">e</span>dback</strong>
+        </a>
+        <button type="button" class="navbar-toggler text-warning" data-toggle="collapse" data-target="#navbarCollapse">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link">Messages</a>
+                <a href="#" class="nav-item nav-link" data-toggle="modal" data-target="#loginmodal" data-backdrop="static" data-keyboard="false">Login</a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="container-fluid main_body">
+    <div class="row" style="margin-top: 80px;">
+        <div class="col-sm-6">
+     <img  class="bgimg" src="images/bgimg.svg" >
+</div>
+<div class="col-md-4">
+    <!-- text block -->
+    <div class="text-block">
+    <h4 class="text-danger">Why Feedback</h4>
+    <p>A text survey is a great way to learn from customers and offer them a quick, seamless way to provide feedback...<a href="#">read more</a></p>
+  </div>
+</div>
+</div>
+</div>
+
+
+        
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12">
+<div class="card bg-light shadow p-3 mb-5 bg-white rounded">
+  <div class="card-body">
+    <h4 class="card-title text-center text-danger">Student feedback Form</h4>
+          <form class="feed_form">
+                 <div class="input-group mb-3 input-group-sm">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Name</span>
+                    </div>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="input-group mb-3 input-group-sm">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Roll No</span>
+                    </div>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="input-group mb-3 input-group-sm">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Course Type</span>
+                </div>
+                <select class="form-control" id="sel1">
+                    <option>Long Term</option>
+                    <option>Short Term</option>
+                    <option>Online Course</option>
+                  </select>
+              </div>
+              <div class="input-group mb-3 input-group-sm">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Course</span>
+                </div>
+                <select class="form-control" id="sel1">
+                    <option>MCC AI & IOT</option>
+                    <option>DTDM</option>
+                    <option>Diploma in Mechatronics</option>
+                    <option>CAD/CAM(PDCC)</option>
+                  </select>
+              </div>
+               <div class="input-group mb-3 input-group-sm">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Batch</span>
+                </div>
+                <select class="form-control" id="sel1">
+                    <option>MCC AI & IOT-1</option>
+                    <option>MCC AI & IOT-2</option>
+                    <option>DTDM-1</option>
+                    <option>DTDM-2</option>
+                  </select>
+              </div>
+               
+               
+              <div class="input-group mb-3 input-group-sm">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Comments</span>
+                    </div>
+                    <textarea rows="4" class="form-control"> </textarea> 
+                  </div>
+                  <div class="input-group mb-3 input-group-sm">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Rating Points</span>
+                </div>
+                <select class="form-control" id="sel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+              </div>
+                    <button class="btn btn-primary btn-block">Submit Feedback</button>
+            </form>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid bg-dark">
+    
+    <div class="foot_name px-5 py-5">
+        <h6 class="text-white text-center"> Copyright 2019-2020 by Feedback Stystem. All Rights Reserved.</h6>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+        <a class="close text-center mt-2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/close1.png" class="rounded-circle border shadow" style="width:35px;height: 35px;"></span>
+        </a>
+      
+      <div class="modal-body">
+        <div class="card shadow p-3 mb-5 bg-white rounded">
+            <h4 class="card-title text-danger text-center">LOGIN</h4>
+            <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+            </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+ $(function () {
+  $(document).scroll(function () {
+      var $nav = $(".navbar");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});
+
+</script>
+</body>
+</html>

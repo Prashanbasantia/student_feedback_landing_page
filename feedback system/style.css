@@ -1,0 +1,143 @@
+body{
+	font-family: sans-serif;
+}
+
+
+.main_body{
+	margin-top: -10px;
+width: 100%;
+    height: auto;
+    background-color: rgb(241,241,241);
+    padding: 0px 10px 10px 10px !important;
+    border-radius: 0px 0px 8px 8px;
+    margin-top: 8px;
+    border:1px solid transparent !important;
+}
+nav{
+
+	margin-top: -20px;
+	background: rgb(241,241,241);
+    box-shadow: none !important;
+}
+.navbar .navbar-brand{
+	margin-left: 20px;
+}
+.navbar .navbar-brand .btext{
+	color:#28a745;
+}
+.main_body .bgimg{
+	width: 100%;
+	height: 300px;
+	box-shadow: none !important;
+	
+}
+.tr{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+	color:red;
+}
+nav .navbar-nav{
+	margin-right: 50px;
+}
+nav .navbar-nav .nav-link{
+color:#495057;
+padding: 0px 10px 0px 0px;
+margin-right: 15px;
+
+} 
+.navbar.scrolled {
+  background-color:	#f8f9fa !important;
+  transition: background-color 200ms linear;
+}
+nav .navbar-nav .active{
+	border:1px solid #ffc107;
+	border-radius: 30px;
+	background-color: #ffc107;
+	color: white;
+	
+
+}
+nav .navbar-nav a:hover{
+border:1.4px solid #ffc107;
+
+}
+.text-block {
+  background-color: transparent !important;
+  color: black;
+  padding: 10px 10px 10px 10px;
+
+}
+.navbar-toggler{
+	border-radius: 3px;
+	border:1px solid #ffc107;
+	margin-right: 30px;
+
+}
+.feed_form input[type = text]:focus{
+border: 1px solid #f3671d;
+ box-shadow: 0 1px 0 0 #f3671d;
+}
+.feed_form select:focus , .feed_form textarea:focus{
+border: 1px solid #f3671d;
+ box-shadow: 0 1px 0 0 #f3671d;
+}
+@media only screen and (max-width: 767px) {
+.navbar .navbar-collapse{
+background-image: linear-gradient(#9ddef7, #8261e6);
+
+}
+nav{
+margin-top: -20px;}
+nav .navbar-nav a:hover{
+border:0px solid transparent !important;
+
+}
+nav .navbar-nav .active{
+	border:0px solid transparent !important;
+	border-radius: 0px;
+	background-color: transparent !important;
+	color: #ffc107;
+}
+nav .navbar-nav .nav-link{
+color:#fff;
+padding: 10px 0px 10px 30px;
+margin-right: 15px;
+
+} 
+
+
+}
+
+@media only screen and (max-width: 420px) {
+.navbar .navbar-brand{
+	margin-left: 10px;
+}
+@media only screen and (max-width: 385px) {
+.navbar .navbar-brand .btext{
+	display: none;
+}
+.navbar .navbar-brand{
+	margin-left: 20px;
+}
+}
+@media only screen and (max-width: 415px) {
+
+.navbar .navbar-brand{
+	margin-left: 0px;
+}
+.navbar-toggler{
+	margin-right: 0px;
+
+}}
+
+.footer{
+	height: 150px;
+}
+.foot_name{
+	margin-bottom: 10px;
+}
+
+
